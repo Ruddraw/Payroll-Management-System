@@ -13,9 +13,17 @@ abstract class Employee {
   }
 
   //Encapsulation --> user can check the value of any variable without directly accessing the variable. this increases the security of the code. 
+  /**
+   * getter
+   * @return
+   */
   public String getName(){
     return name;
   }
+  /**
+   * getter
+   * @return
+   */
   public int getId(){
     return id;
   }

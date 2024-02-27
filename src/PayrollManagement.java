@@ -38,4 +38,10 @@ public class PayrollManagement {
       employeeList.remove(employeeToRemove);
     }
   }
+
+  public void displayEmployees(){
+    for (Employee employee : employeeList) {
+      System.out.println(employee);
+    }
+  }
 }
